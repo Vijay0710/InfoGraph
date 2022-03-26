@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JugContent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="347dp"
+            android:src="@drawable/ic_mug_original"
+
+            />
+
+        <include
+            android:id="@+id/orange_doughnut"
+            layout="@layout/activity_doughnut_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="136dp"
+            android:layout_marginVertical="84dp" />
+        <include
+            android:id="@+id/green_doughnut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/activity_doughnut_chart"
+            android:layout_marginVertical="216dp"
+            android:layout_marginHorizontal="137dp"
+            />
+        <include
+            android:id="@+id/red_doughnut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/activity_doughnut_chart"
+            android:layout_marginVertical="219dp"
+            android:layout_marginHorizontal="255dp"
+            />
+        <include
+            android:id="@+id/pink_doughnut"
+            layout="@layout/activity_doughnut_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="249dp"
+            android:layout_marginVertical="89dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <include
+            android:id="@+id/blue_doughnut"
+            layout="@layout/activity_doughnut_chart"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="195dp"
+            android:layout_marginVertical="155dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
